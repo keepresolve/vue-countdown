@@ -1,0 +1,34 @@
+{
+  "name": "c-vue-countdown",
+  "version": "1.0.0",
+  "description": "a simple countdown abort vue component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepresolve/vue-countdown.git"
+  },
+  "keywords": [
+    "vue",
+    "countdown"
+  ],
+  "author": "shiyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keepresolve/vue-countdown/issues"
+  },
+  "homepage": "https://github.com/keepresolve/vue-countdown#readme"
+}
+
+{
+  "server":"0.0.0.0",
+  "port_password": {
+      "8388": "your_password1",
+      "8389": "your_password2"
+  },
+  "timeout":600,
+  "method":"aes-256-cfb",
+  "fast_open": false
+}
