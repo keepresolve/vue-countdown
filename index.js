@@ -1,20 +1,5 @@
-import VueCountdown from "./vue-countdown/index.js";
-
-const components = [VueCountdown];
-
-const install = function (Vue, opts = {}) {
-  components.forEach((component) => {
-    Vue.component(component.name, component);
-  });
+import VueCountdown from "./countdown.vue";
+VueCountdown.install = function () {
+  Vue.component(VueCountdown.name, VueCountdown);
 };
-
-/* istanbul ignore if */
-if (typeof window !== "undefined" && window.Vue) {
-  install(window.Vue);
-}
-
-export default {
-  VueCountdown,
-  install,
-};
-
+export default VueCountdown;
